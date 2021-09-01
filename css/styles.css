@@ -1,0 +1,100 @@
+#title{
+  height:100vh;
+  width: 100%;
+  background-size:cover;
+  position:relative;
+  background-image: linear-gradient(rgba(4,9,30,0.15),rgba(4,9,30,0.15)), url(../images/eagle-flying.jpg);
+}
+
+img{
+  max-width: 100%;
+  height:auto;
+  /* display: block; */
+}
+body{
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 3% 8% 7%;
+}
+
+.nav-item{
+  padding:0px 18px;
+}
+
+.nav-link{
+  font-size:1.1rem;
+}
+
+.nav-link:hover{
+  color:#362222!important;
+}
+
+.top-container{
+  padding-top: 10%;
+  text-align:center;
+}
+
+.name{
+  font-size:4rem;
+  color:#362222;
+  font-weight:bold;
+  padding-bottom:1%;
+}
+
+.job-title{
+  font-size:2rem;
+  font-weight:bold;
+}
+
+.about-container{
+  text-align:center;
+  padding: 5% 15% 3%;
+}
+
+.about-me-desc{
+  text-align:left;
+  height:100%;
+  font-size:1.5rem;
+}
+
+.row-about-me{
+  padding-top:3%;
+}
+
+.square-image{
+  border-radius:10%;
+}
+
+.portfolio-container{
+  text-align:center;
+  padding:5% 15% 0%;
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .about-me-desc{
+    padding-top:5%;
+    text-align: center;
+  }
+
+}
+
+.school-name{
+  text-align:left;
+}
+
+.year{
+  text-align:right;
+}
